@@ -8,5 +8,6 @@ console.log('a/b=', a/b);
 console.log('a%b=', a%b);
 console.log('a++=', a++);
 console.log('a--=', a--);
-console.log('a+b=', a+b);
-console.log('a+b=', a+b);
+
+a+= 0;
+console.log(a);
