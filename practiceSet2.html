@@ -8,13 +8,27 @@
 <body>
     
     <script>
-        let mahim=prompt("what is your age?");
-        if (mahim>10 && mahim<20){
-            console.log("your age is between 10-20");
-        }
+        // let mahim=prompt("what is your age?");
+        // if (mahim>10 && mahim<20){
+        //     console.log("your age is between 10-20");
+        // }
+        // else{
+        //     console.log("your age is no match")
+        // }
+        //problect 3
+
+        let num = prompt('what is your number');
+        num= Number.parseInt(num);
+        console.log(num);
+
+        if (num%2==0 || num%3==0)
+            {
+                console.log("um right");
+            }
         else{
-            console.log("your age is no match")
+            console.log("this is not divisible by 2/3");
         }
+
     </script>
 </body>
 </html>
