@@ -5,3 +5,4 @@ const sadi = {
 }
 console.log(sadi.age);
 console.log(sadi);
+console.log(sadi.profession);
