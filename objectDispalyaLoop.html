@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="test"></p>
+
+    <script>
+        //create object
+        const object={
+            item:'car',
+            color:'red',
+            price:2200000
+        };
+        //build text
+        let text=" ";
+        for(let x in object){
+            text += object[x] + " ";
+
+        };
+        //display text
+        document.getElementById('test').innerHTML=text;
+
+    </script>
+</body>
+</html>
